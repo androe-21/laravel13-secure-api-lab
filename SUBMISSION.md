@@ -1,0 +1,1 @@
+A 401 Unauthorized status is returned when a user tries to access restricted information without a valid login token. If authentication is successful, the API returns 200 OK and provides the user's profile details. Once the user logs out, the access token becomes invalid, and they must authenticate again to use protected API features.
